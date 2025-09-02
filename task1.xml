@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoffeeShop name="CoffeeBean Paradise" location="Downtown">
+    <!-- Информация о меню -->
+    <Menu>
+        <Category name="Espresso Drinks">
+            <Item name="Espresso">
+                <Size type="Small" price="2.50" />
+                <Size type="Medium" price="3.00" />
+                <Size type="Large" price="3.50" />
+                <Description>Rich and bold espresso shot.</Description>
+            </Item>
+            <Item name="Cappuccino">
+                <Size type="Small" price="3.00" />
+                <Size type="Medium" price="3.50" />
+                <Size type="Large" price="4.00" />
+                <Description>A shot of espresso with steamed milk and foam.</Description>
+            </Item>
+        </Category>
+        <Category name="Iced Drinks">
+            <Item name="Iced Latte">
+                <Size type="Medium" price="3.80" />
+                <Size type="Large" price="4.30" />
+                <Description>Espresso with milk, served with ice.</Description>
+            </Item>
+            <Item name="Iced Americano">
+                <Size type="Medium" price="2.80" />
+                <Size type="Large" price="3.20" />
+                <Description>Espresso topped off with water and served over ice.</Description>
+            </Item>
+        </Category>
+        <Category name="Snacks">
+            <Item name="Chocolate Muffin">
+                <Size type="Standard" price="2.50" />
+                <Description>Soft and moist muffin with rich chocolate flavor.</Description>
+            </Item>
+            <Item name="Croissant">
+                <Size type="Standard" price="2.20" />
+                <Description>Flaky and buttery pastry, perfect with coffee.</Description>
+            </Item>
+        </Category>
+    </Menu>
+
+    <!-- Информация о сотрудниках -->
+    <Staff>
+        <Employee id="1" role="Barista">
+            <Name>John Doe</Name>
+            <EmploymentType>Full-Time</EmploymentType>
+            <ExperienceYears>3</ExperienceYears>
+        </Employee>
+        <Employee id="2" role="Manager">
+            <Name>Sarah Smith</Name>
+            <EmploymentType>Full-Time</EmploymentType>
+            <ExperienceYears>8</ExperienceYears>
+        </Employee>
+        <Employee id="3" role="Cashier">
+            <Name>Michael Brown</Name>
+            <EmploymentType>Part-Time</EmploymentType>
+            <ExperienceYears>1</ExperienceYears>
+        </Employee>
+    </Staff>
+
+    <!-- Информация о дополнительных услугах -->
+    <AdditionalServices>
+        <Service name="Free WiFi" />
+        <Service name="Loyalty Program" description="Collect points" />
+        <Service name="Catering" description="coffee for your events." />
+    </AdditionalServices>
+</CoffeeShop>
