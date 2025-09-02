@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <CoffeeShop name="CoffeeBean Paradise" location="Downtown">
-    <!-- Информация о меню -->
     <Menu>
         <Category name="Espresso Drinks">
             <Item name="Espresso">
@@ -39,8 +39,6 @@
             </Item>
         </Category>
     </Menu>
-
-    <!-- Информация о сотрудниках -->
     <Staff>
         <Employee id="1" role="Barista">
             <Name>John Doe</Name>
